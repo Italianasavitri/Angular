@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NewComponentComponent } from './new-component/new-component.component';
 import { InterpolasiComponent } from './interpolasi/interpolasi.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
+import { ClassbindingComponent } from './classbinding/classbinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewComponentComponent,
     InterpolasiComponent,
-    PropertybindingComponent
+    PropertybindingComponent,
+    ClassbindingComponent
   ],
   imports: [
     BrowserModule,
