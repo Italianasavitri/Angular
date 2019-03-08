@@ -8,6 +8,7 @@ import { InterpolasiComponent } from './interpolasi/interpolasi.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 import { ClassbindingComponent } from './classbinding/classbinding.component';
 import { StylebindingComponent } from './stylebinding/stylebinding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StylebindingComponent } from './stylebinding/stylebinding.component';
     InterpolasiComponent,
     PropertybindingComponent,
     ClassbindingComponent,
-    StylebindingComponent
+    StylebindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
